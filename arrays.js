@@ -5,9 +5,8 @@ var chocolateBars = [
   'skittles'
 ];
 
-function addElementToBeginningOfArray(element, array) {
-  var array = ["Good afternoon", "Good evening", "Good night"];
-  var element = "Good morning";
+function addElementToBeginningOfArray(array, element) {
+  var array = [];
   array = [element, ...array];
   return array;
 }
